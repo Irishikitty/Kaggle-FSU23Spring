@@ -7,16 +7,18 @@
 ## Model architectures (tensorflow)
 - Random Forests
 - Gradient Boosting Trees
-- CartModel
+
 
 ### Hyperparameters Tuning:
   - random_forest_tune.py
   - gbm_tune.py
-  - cart_tune.py
+
 
 Each of them contain 50 trials, and search spaces are included in the *overview.ipynb*
 
 ### Useful resources:
 
 - Yggdrasil backend: https://dl.acm.org/doi/10.1145/3580305.3599933#sec-supp
-- Model hyperparameters: https://www.tensorflow.org/decision_forests/api_docs/python/tfdf/keras/GradientBoostedTreesModel
+- Model hyperparameters: 
+  - https://www.tensorflow.org/decision_forests/api_docs/python/tfdf/keras/RandomForestModel
+  - https://www.tensorflow.org/decision_forests/api_docs/python/tfdf/keras/GradientBoostedTreesModel
