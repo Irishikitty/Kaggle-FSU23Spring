@@ -5,9 +5,9 @@
 - eda_v1.ipynb: contains preprocessing details and first try.
 - variables.txt: contains useful variables.
 
-### Hyperparameters Tuning:
-  - random_forest_tune.py
-  - gbm_tune.py
+### Hyperparameters Tuning (scripts -> results):
+  - random_forest_tune.py -> rf.csv
+  - gbm_tune.py -> gbm.csv
 
 Each of them contains 50 trials, and search spaces are included in the *overview.ipynb*
 
