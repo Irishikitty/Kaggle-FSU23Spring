@@ -1,20 +1,15 @@
-# FSU23-Kaggle: Housing Prices Prediction
+# Kaggle-FSU23Spring: Housing Prices Prediction
 
-## Feature Engineering
+## Overview
+- overview.ipynb: includes concise introduction of preprocessing data, performing feature engineering and modeling.
+- eda_v1.ipynb: contains preprocessing details and first try.
+- variables.txt: contains useful variables.
 
+### Hyperparameters Tuning (scripts -> results):
+  - random_forest_tune.py -> rf.csv
+  - gbm_tune.py -> gbm.csv
 
-
-## Model architectures (tensorflow)
-- Random Forests
-- Gradient Boosting Trees
-
-
-### Hyperparameters Tuning:
-  - random_forest_tune.py
-  - gbm_tune.py
-
-
-Each of them contain 50 trials, and search spaces are included in the *overview.ipynb*
+Each of them contains 50 trials, and search spaces are included in the *overview.ipynb*
 
 ### Useful resources:
 
